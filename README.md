@@ -1,4 +1,4 @@
-# colorblind
+# colorblind intro
 A repository to store colorblind palettes for plots in all programming languages and programs. This
 repository is meant to be accessible on multiple levels, whether you are just starting out 
 in a particular programming language or a seasoned veteran. Each program is divided into two
@@ -7,10 +7,16 @@ will allow you to copy and paste a few lines of code to make your work colorblin
 The "integrated" solution will change the default plot options for a program so that it will 
 always create material that is colorblind friendly.
 
-Mathematica
----
-Copy and Paste
---
+# Sources
+
+# Raw RGB Values
+
+# Program Implementations
+
+## Mathematica
+Mathematica is where I do the majority of my work, so it will be the first program to be filled out.
+### Copy and Paste
+
 To any plot, add the paste in the following list of colors as the argument for "PlotStyle"
 For example: ListPlot[{{1,2,3},{4,5,6}},PlotStyle->{RGBColor[0/255],...}]
 {RGBColor[0/255,0/255,0/255], (* Black *)
