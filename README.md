@@ -8,6 +8,9 @@ The "integrated" solution will change the default plot options for a program so 
 always create material that is colorblind friendly.
 
 # Sources
+Credit should be given where it is due. I have not developed any of these color schemes, I am merely trying to organize them into a format that is easily accessible for all creators. The following is a list of sources where I got these palettes. They are organized roughly by when I became aware of them.
+
+1. http://mkweb.bcgsc.ca/colorblind/ - Martin Krzywinski
 
 # Raw RGB Values
 
