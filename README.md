@@ -18,7 +18,7 @@ Mathematica is where I do the majority of my work, so it will be the first progr
 ### Copy and Paste
 
 To any plot, add the paste in the following list of colors as the argument for "PlotStyle"
-For example: ListPlot[{{1,2,3},{4,5,6}},PlotStyle->{RGBColor[0/255],...}]
+For example: ListPlot[{{1,2,3},{4,5,6}},PlotStyle->{RGBColor[0/255,0/255,0/255],...}]
 
 
 {RGBColor[0/255,0/255,0/255], (* Black *)
