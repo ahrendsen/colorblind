@@ -7,6 +7,8 @@ will allow you to copy and paste a few lines of code to make your work colorblin
 The "integrated" solution will change the default plot options for a program so that it will 
 always create material that is colorblind friendly.
 
+The first step in implementing any of these is to first send an email to the provider of your software and request that they change the default sequence to be colorblind friendly. The majority of the population will only use them if they are the defaults, and only the software providers can accomplish this.  
+
 # Sources
 Credit should be given where it is due. I have not developed any of these color schemes, I am merely trying to organize them into a format that is easily accessible for all creators. The following is a list of sources where I got these palettes. They are organized roughly by when I became aware of them.
 
@@ -47,5 +49,35 @@ For example: `ListPlot[{{1,2,3},{4,5,6}},PlotStyle->{RGBColor[0/255,0/255,0/255]
   RGBColor[213/255,94/255,0/255], (\* Vermillion \*)
   RGBColor[204/255,121/255,167/255] (\* Pink \*)
   }
+  
+## gnuplot
+I do a small amount of auto-generation of plots in gnuplot. Since it's text based, the copy paste and integrated solutions are essentially the same.
+### Copy and Paste
+If you have a gnuplot script that is generating the plots, copy and paste these commands into the script above where the plot is generated.
+
+  set linetype 1 lc rgb "0x000000" lw 2 pt 1
+  set linetype 2 lc rgb "0xe69f00" lw 2 pt 2
+  set linetype 3 lc rgb "0x56b4e9" lw 2 pt 3
+  set linetype 4 lc rgb "0x009e73" lw 2 pt 4
+  set linetype 5 lc rgb "0xf0e442" lw 2 pt 5
+  set linetype 6 lc rgb "0x0072b2" lw 2 pt 6
+  set linetype 7 lc rgb "0xd55e00" lw 2 pt 7
+  set linetype 8 lc rgb "0xcc79a7" lw 2 pt 8
+  set	linetype cycle 8
+
+### Integrated
+Copy and paste the following lines into the gnuplot configuration file ~/.gnuplot
+
+  set linetype 1 lc rgb "0x000000" lw 2 pt 1
+  set linetype 2 lc rgb "0xe69f00" lw 2 pt 2
+  set linetype 3 lc rgb "0x56b4e9" lw 2 pt 3
+  set linetype 4 lc rgb "0x009e73" lw 2 pt 4
+  set linetype 5 lc rgb "0xf0e442" lw 2 pt 5
+  set linetype 6 lc rgb "0x0072b2" lw 2 pt 6
+  set linetype 7 lc rgb "0xd55e00" lw 2 pt 7
+  set linetype 8 lc rgb "0xcc79a7" lw 2 pt 8
+  set	linetype cycle 8
+
+
 
 
