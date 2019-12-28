@@ -15,6 +15,10 @@ Credit should be given where it is due. I have not developed any of these color 
 3. https://personal.sron.nl/~pault/ - Paul Tol
 
 # Raw RGB Values
+1. Wong 2011
+| Color name | R (dec) | G (dec) | B (dec) |
+|   ---      |  ---    |   ---   |   ---   |
+| Black      | 0       |  0      |   0     |
 
 # Program Implementations
 
