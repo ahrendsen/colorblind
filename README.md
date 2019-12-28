@@ -16,9 +16,17 @@ Credit should be given where it is due. I have not developed any of these color 
 
 # Raw RGB Values
 1. Wong 2011
-| Color name | R (dec) | G (dec) | B (dec) |
-|   ---      |  ---    |   ---   |   ---   |
-| Black      | 0       |  0      |   0     |
+
+| Color name | R (dec) | G (dec) | B (dec) | R (hex) | G (hex) | B (hex) | RGB (hex) |
+|   ---      |  ---    |   ---   |   ---   | --- |      --- |    ---      | --- |
+| Black      | 0       |  0      |   0     | 00  | 00 | 00 | 000000 | 
+| Orange | 230 | 159 | 0 |                    e6 | 9f | 00 | e69f00 | 
+| Sky blue | 86 | 180 | 233 |                 56 | b4 | e9 | 56b4e9 | 
+| Bluish green | 0 | 158 | 115 |              00 | 9e | 73 | 009e73 |
+| Yellow | 240 | 228 | 66 |                   f0 | e4 | 42 | f0e442 |
+| Blue | 0 | 114 | 178 |                      00 | 72 | b2 | 0072b2 | 
+| Vermillion | 213 | 94 | 0 |                 d5 | 5e | 00 | d55e00 |
+| Reddish purple | 204 | 121 | 167 |          cc | 79 | a7 | cc79a7 |
 
 # Program Implementations
 
