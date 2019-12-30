@@ -55,42 +55,43 @@ I do a small amount of auto-generation of plots in gnuplot. Since it's text base
 ### Copy and Paste
 If you have a gnuplot script that is generating the plots, copy and paste these commands into the script above where the plot is generated.
 
-  set linetype 1 lc rgb "0x000000" lw 2 pt 1
+
+  set linetype 1 lc rgb 0x000000 lw 2
   
-  set linetype 2 lc rgb "0xe69f00" lw 2 pt 2
+  set linetype 2 lc rgb 0xe69f00 lw 2
   
-  set linetype 3 lc rgb "0x56b4e9" lw 2 pt 3
+  set linetype 3 lc rgb 0x56b4e9 lw 2
   
-  set linetype 4 lc rgb "0x009e73" lw 2 pt 4
+  set linetype 4 lc rgb 0x009e73 lw 2
   
-  set linetype 5 lc rgb "0xf0e442" lw 2 pt 5
+  set linetype 5 lc rgb 0xf0e442 lw 2
   
-  set linetype 6 lc rgb "0x0072b2" lw 2 pt 6
+  set linetype 6 lc rgb 0x0072b2 lw 2
   
-  set linetype 7 lc rgb "0xd55e00" lw 2 pt 7
+  set linetype 7 lc rgb 0xd55e00 lw 2
   
-  set linetype 8 lc rgb "0xcc79a7" lw 2 pt 8
+  set linetype 8 lc rgb 0xcc79a7 lw 2
   
   set	linetype cycle 8
 
 ### Integrated
 Copy and paste the following lines into the gnuplot configuration file ~/.gnuplot
 
-  set linetype 1 lc rgb "0x000000" lw 2 pt 1
+  set linetype 1 lc rgb 0x000000 lw 2
   
-  set linetype 2 lc rgb "0xe69f00" lw 2 pt 2
+  set linetype 2 lc rgb 0xe69f00 lw 2
   
-  set linetype 3 lc rgb "0x56b4e9" lw 2 pt 3
+  set linetype 3 lc rgb 0x56b4e9 lw 2
   
-  set linetype 4 lc rgb "0x009e73" lw 2 pt 4
+  set linetype 4 lc rgb 0x009e73 lw 2
   
-  set linetype 5 lc rgb "0xf0e442" lw 2 pt 5
+  set linetype 5 lc rgb 0xf0e442 lw 2
   
-  set linetype 6 lc rgb "0x0072b2" lw 2 pt 6
+  set linetype 6 lc rgb 0x0072b2 lw 2
   
-  set linetype 7 lc rgb "0xd55e00" lw 2 pt 7
+  set linetype 7 lc rgb 0xd55e00 lw 2
   
-  set linetype 8 lc rgb "0xcc79a7" lw 2 pt 8
+  set linetype 8 lc rgb 0xcc79a7 lw 2
   
   set	linetype cycle 8
 
