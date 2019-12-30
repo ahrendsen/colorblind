@@ -75,7 +75,7 @@ If you have a gnuplot script that is generating the plots, copy and paste these 
   set	linetype cycle 8
 
 ### Integrated
-Copy and paste the following lines into the gnuplot configuration file ~/.gnuplot
+Copy and paste the following lines into the gnuplot configuration file, default location: "~/.gnuplot". This configuration file might also need to be copied to the root user's home directory "/root/.gnuplot", if you run scripts with root when you collect data.
 
   set linetype 1 lc rgb 0x000000 lw 2
   
