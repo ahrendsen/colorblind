@@ -42,61 +42,49 @@ Mathematica is where I do the majority of my work, so it will be the first progr
 To any plot, add the paste in the following list of colors as the argument for `PlotStyle`
 For example: `ListPlot[{{1,2,3},{4,5,6}},PlotStyle->{RGBColor[0/255,0/255,0/255],...}]`
 
-
-  {RGBColor[0/255,0/255,0/255], (\* Black \*)
-  RBBColor[230/255,159/255,0], (\* Orange \*)
-  RGBColor[86/255,180/255,233/255], (\* Light Blue \*)
-  RGBColor[0/255,158/255,115/255], (\* Teal \*)
-  RGBColor[240/255,228/255,66/255], (\* Yellow \*)
-  RGBColor[0/255,114/255,178/255], (\* Royal Blue \*)
-  RGBColor[213/255,94/255,0/255], (\* Vermillion \*)
-  RGBColor[204/255,121/255,167/255] (\* Pink \*)
-  }
+```Mathematica
+{RGBColor[0/255,0/255,0/255], (\* Black \*)
+RGBColor[230/255,159/255,0], (\* Orange \*)
+RGBColor[86/255,180/255,233/255], (\* Light Blue \*)
+RGBColor[0/255,158/255,115/255], (\* Teal \*)
+RGBColor[240/255,228/255,66/255], (\* Yellow \*)
+RGBColor[0/255,114/255,178/255], (\* Royal Blue \*)
+RGBColor[213/255,94/255,0/255], (\* Vermillion \*)
+RGBColor[204/255,121/255,167/255] (\* Pink \*)
+}
+```
   
 ## gnuplot
 I do a small amount of auto-generation of plots in gnuplot. Since it's text based, the copy paste and integrated solutions are essentially the same.
 ### Copy and Paste
 If you have a gnuplot script that is generating the plots, copy and paste these commands into the script above where the plot is generated.
 
-
-  set linetype 1 lc rgb 0x000000 lw 2
-  
-  set linetype 2 lc rgb 0xe69f00 lw 2
-  
-  set linetype 3 lc rgb 0x56b4e9 lw 2
-  
-  set linetype 4 lc rgb 0x009e73 lw 2
-  
-  set linetype 5 lc rgb 0xf0e442 lw 2
-  
-  set linetype 6 lc rgb 0x0072b2 lw 2
-  
-  set linetype 7 lc rgb 0xd55e00 lw 2
-  
-  set linetype 8 lc rgb 0xcc79a7 lw 2
-  
-  set	linetype cycle 8
+```gnuplot
+set linetype 1 lc rgb 0x000000 lw 2
+set linetype 2 lc rgb 0xe69f00 lw 2
+set linetype 3 lc rgb 0x56b4e9 lw 2
+set linetype 4 lc rgb 0x009e73 lw 2
+set linetype 5 lc rgb 0xf0e442 lw 2
+set linetype 6 lc rgb 0x0072b2 lw 2
+set linetype 7 lc rgb 0xd55e00 lw 2
+set linetype 8 lc rgb 0xcc79a7 lw 2
+set linetype cycle 8
+```
 
 ### Integrated
 Copy and paste the following lines into the gnuplot configuration file, default location: "~/.gnuplot". This configuration file might also need to be copied to the root user's home directory "/root/.gnuplot", if you run scripts with root when you collect data.
 
-  set linetype 1 lc rgb 0x000000 lw 2
-  
-  set linetype 2 lc rgb 0xe69f00 lw 2
-  
-  set linetype 3 lc rgb 0x56b4e9 lw 2
-  
-  set linetype 4 lc rgb 0x009e73 lw 2
-    
-  set linetype 5 lc rgb 0xf0e442 lw 2
-  
-  set linetype 6 lc rgb 0x0072b2 lw 2
-  
-  set linetype 7 lc rgb 0xd55e00 lw 2
-  
-  set linetype 8 lc rgb 0xcc79a7 lw 2
-  
-  set	linetype cycle 8
+```gnuplot
+set linetype 1 lc rgb 0x000000 lw 2
+set linetype 2 lc rgb 0xe69f00 lw 2
+set linetype 3 lc rgb 0x56b4e9 lw 2
+set linetype 4 lc rgb 0x009e73 lw 2
+set linetype 5 lc rgb 0xf0e442 lw 2
+set linetype 6 lc rgb 0x0072b2 lw 2
+set linetype 7 lc rgb 0xd55e00 lw 2
+set linetype 8 lc rgb 0xcc79a7 lw 2
+set linetype cycle 8
+```
   
 ## Inkscape
 Inkscape is great for preparing 2D drawings, and is an alternative to Adobe Illustrator. 
@@ -104,6 +92,9 @@ Inkscape is great for preparing 2D drawings, and is an alternative to Adobe Illu
 Inkscape doesn't seem to have a place to copy and paste a list of RGB values. You can specify individual colors from the RGB values in the table above, but given the nature of editing on inkscape, I think it makes the most sense to just provide this image of the colors. 
 
 <img alt="ColorPalette" src="https://raw.githubusercontent.com/ahrendsen/colorblind/master/wong2011.png">
+
+Which can be copied and pasted into your inkscape file and then the eyedropper tool can be used to pick out the colors. 
+
 ### Integrated
 Save [this file](https://github.com/ahrendsen/colorblind/raw/master/colorBlind.gpl) into the directory: 
  - On Windows: "C:\Program Files\Inkscape\share\palettes"
