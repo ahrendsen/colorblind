@@ -102,10 +102,12 @@ Copy and paste the following lines into the gnuplot configuration file, default 
 Inkscape is great for preparing 2D drawings, and is an alternative to Adobe Illustrator. 
 ### Copy and paste
 Inkscape doesn't seem to have a place to copy and paste a list of RGB values. You can specify individual colors from the RGB values in the table above, but given the nature of editing on inkscape, I think it makes the most sense to just provide this image of the colors. 
+
 <img alt="ColorPalette" src="https://raw.githubusercontent.com/ahrendsen/colorblind/master/wong2011.png">
 ### Integrated
 Save [this file](https://github.com/ahrendsen/colorblind/raw/master/colorBlind.gpl) into the directory: 
  - On Windows: "C:\Program Files\Inkscape\share\palettes"
+ 
 The next time you open Inkscape, you will be able to select the palette by clicking on the arrow in the bottom right hand corner next to the colors.
 
 
