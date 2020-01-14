@@ -31,7 +31,10 @@ Credit should be given where it is due. I have not developed any of these color 
 | Reddish purple | 204 | 121 | 167 |          cc | 79 | a7 | cc79a7 |
 
 # Program Implementations
-
+For all of these implementations, I will provide the text input for the Wong 2011 palette on
+this page.
+In the future, I hope to have a python script that will allow for generation of any of 
+the palettes in any of the languages.
 ## Mathematica
 Mathematica is where I do the majority of my work, so it will be the first program to be filled out.
 ### Copy and Paste
@@ -84,7 +87,7 @@ Copy and paste the following lines into the gnuplot configuration file, default 
   set linetype 3 lc rgb 0x56b4e9 lw 2
   
   set linetype 4 lc rgb 0x009e73 lw 2
-  
+    
   set linetype 5 lc rgb 0xf0e442 lw 2
   
   set linetype 6 lc rgb 0x0072b2 lw 2
@@ -94,6 +97,16 @@ Copy and paste the following lines into the gnuplot configuration file, default 
   set linetype 8 lc rgb 0xcc79a7 lw 2
   
   set	linetype cycle 8
+  
+## Inkscape
+Inkscape is great for preparing 2D drawings, and is an alternative to Adobe Illustrator. 
+### Copy and paste
+Inkscape doesn't seem to have a place to copy and paste a list of RGB values. You can specify individual colors from the RGB values in the table above, but given the nature of editing on inkscape, I think it makes the most sense to just provide this image of the colors. 
+<img alt="ColorPalette" src="https://raw.githubusercontent.com/ahrendsen/colorblind/master/wong2011.png">
+### Integrated
+Save [this file](https://github.com/ahrendsen/colorblind/raw/master/colorBlind.gpl) into the directory: 
+ - On Windows: "C:\Program Files\Inkscape\share\palettes"
+The next time you open Inkscape, you will be able to select the palette by clicking on the arrow in the bottom right hand corner next to the colors.
 
 
 
