@@ -19,6 +19,8 @@ Credit should be given where it is due. I have not developed any of these color 
 # Raw RGB Values
 1. Wong 2011
 
+<img alt="ColorPalette" src="https://raw.githubusercontent.com/ahrendsen/colorblind/master/wong2011.png">
+
 | Color name | R (dec) | G (dec) | B (dec) | R (hex) | G (hex) | B (hex) | RGB (hex) |
 |   ---      |  ---    |   ---   |   ---   | --- |      --- |    ---      | --- |
 | Black      | 0       |  0      |   0     | 00  | 00 | 00 | 000000 | 
@@ -53,7 +55,13 @@ RGBColor[213/255,94/255,0/255], (\* Vermillion \*)
 RGBColor[204/255,121/255,167/255] (\* Pink \*)
 }
 ```
-  
+### Integrated
+Every time the Mathematica Kernel starts, it runs the commands stored in an initialization file. We can store commands within this file and cause the default plot color sequence to be the colorblind palette. First, find the location of the Kernel folder on your installation. Regardless of the platform you're on, you can find this with `SystemOpen@FileNameJoin[{$UserBaseDirectory, "Kernel"}]`
+Then place [this file](https://github.com/ahrendsen/colorblind/blob/master/init.m) in the directory you found. 
+
+If Mathematica is currently running, either kill the Kernel or close out of Mathematica and open it back up and your default color sequence should be set. 
+
+I think there has to be an easier way to do this, so if you know of one, please inform me!
 ## gnuplot
 I do a small amount of auto-generation of plots in gnuplot. Since it's text based, the copy paste and integrated solutions are essentially the same.
 ### Copy and Paste
@@ -101,6 +109,10 @@ Save [this file](https://github.com/ahrendsen/colorblind/raw/master/colorBlind.g
  
 The next time you open Inkscape, you will be able to select the palette by clicking on the arrow in the bottom right hand corner next to the colors.
 
+## Microsoft Products
+Love it or hate it, it's probably the most popular program to create data visualizations. Though I tried, I couldn't seem to find a way to default the colors to a custom option. The best I can do is to configure the program so that it allows you to easily select the palette after the program has started.
 
-
-
+### Copy and Paste
+Save [this theme file](https://github.com/ahrendsen/colorblind/blob/master/Theme1.thmx) where you can find it, then in the Office Ribbon go to "Design > Themes > Browse for Themes" and select the file you just downloaded. 
+### Integrated
+Save [the same file as above](https://github.com/ahrendsen/colorblind/blob/master/Theme1.thmx) into the Templates directory. It can be found at (make sure "hidden items" are shown) "<User Folder>\AppData\Roaming\Microsoft\Templates\Document Themes". Now whenever you open a Microsoft product, you should be able to go to "Design > Themes > Theme1" and have access to the colors.
