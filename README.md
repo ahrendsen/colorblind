@@ -17,7 +17,7 @@ Credit should be given where it is due. I have not developed any of these color 
 3. https://personal.sron.nl/~pault/ - Paul Tol
 
 # Raw RGB Values
-1. Wong 2011
+1. Okabe and Ito (https://jfly.uni-koeln.de/color/)
 
 <img alt="ColorPalette" src="https://raw.githubusercontent.com/ahrendsen/colorblind/master/wong2011.png">
 
