@@ -117,4 +117,3 @@ Save [this theme file](https://github.com/ahrendsen/colorblind/blob/master/Theme
 ### Integrated
 Save [the same file as above](https://github.com/ahrendsen/colorblind/blob/master/Theme1.thmx) into the Templates directory. It can be found at (make sure "hidden items" are shown) "<User Folder>\AppData\Roaming\Microsoft\Templates\Document Themes". Now whenever you open a Microsoft product, you should be able to go to "Design > Themes > Theme1" and have access to the colors.
 
-  ![color](https://user-images.githubusercontent.com/6043860/152629253-d54bb55a-89e0-4391-9f31-c4c26f704a8e.svg)
