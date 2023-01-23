@@ -62,10 +62,22 @@ Then place [this file](https://github.com/ahrendsen/colorblind/blob/master/init.
 If Mathematica is currently running, either kill the Kernel or close out of Mathematica and open it back up and your default color sequence should be set. 
 
 I think there has to be an easier way to do this, so if you know of one, please inform me!
+
 ## gnuplot
+
 I do a small amount of auto-generation of plots in gnuplot. Since it's text based, the copy paste and integrated solutions are essentially the same.
+
 ### Copy and Paste
+
 If you have a gnuplot script that is generating the plots, copy and paste these commands into the script above where the plot is generated.
+
+Gnuplot version 5 introduced the `podo` color sequence, which is the Okabe and Ito color sequence. If you are in Gnuplot 5 you can simply set the color sequence to `podo` like this:
+
+```gnuplot
+set colorsequence podo
+```
+
+On older versions of Gnuplot specify the colors manually:
 
 ```gnuplot
 set linetype 1 lc rgb 0x000000 lw 2
@@ -80,7 +92,14 @@ set linetype cycle 8
 ```
 
 ### Integrated
-Copy and paste the following lines into the gnuplot configuration file, default location: "~/.gnuplot". This configuration file might also need to be copied to the root user's home directory "/root/.gnuplot", if you run scripts with root when you collect data.
+
+Copy and paste the following lines into the gnuplot configuration file, default location: "~/.gnuplot". This configuration file might also need to be copied to the root user's home directory "/root/.gnuplot", if you run scripts with root when you collect data. If you are on Gnuplot 5 use the `podo` color sequence:
+
+```gnuplot
+set colorsequence podo
+```
+
+Otherwise specify the colors manually:
 
 ```gnuplot
 set linetype 1 lc rgb 0x000000 lw 2
