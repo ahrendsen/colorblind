@@ -1,5 +1,7 @@
-# colorblind intro
-A repository to store colorblind palettes for plots in all programming languages and programs. This
+# colors intro
+A repository to store color palettes for plots in all programming languages and programs. 
+The focus is on schemes that are perceptually uniform and were designed with 
+colorblindness in mind. This
 repository is meant to be accessible on multiple levels, whether you are just starting out 
 in a particular programming language or a seasoned veteran. Each program is divided into two
 sections, the "copy paste" method and the "integrated" solution.  The "copy and paste" method 
@@ -7,10 +9,16 @@ will allow you to copy and paste a few lines of code to make your work colorblin
 The "integrated" solution will change the default plot options for a program so that it will 
 always create material that is colorblind friendly.
 
-The first step in implementing any of these is to first send an email to the provider of your software and request that they change the default sequence to be colorblind friendly. The majority of the population will only use them if they are the defaults, and only the software providers can accomplish this.  
+The first step in implementing any of these is to first send an email to the provider of your 
+software and request that they change the default sequence to be colorblind friendly. The 
+majority of the population will only use them if they are the defaults, and only the software 
+providers can accomplish this.  
 
 # Sources
-Credit should be given where it is due. I have not developed any of these color schemes, I am merely trying to organize them into a format that is easily accessible for all creators. The following is a list of sources where I got these palettes. They are organized roughly by when I became aware of them.
+Credit should be given where it is due. I have not developed any of these color schemes, I am 
+merely trying to organize them into a format that is easily accessible for all creators. The 
+following is a list of sources where I got these palettes. They are organized roughly by when 
+I became aware of them.
 
 1. http://mkweb.bcgsc.ca/colorblind/ - Martin Krzywinski (also http://mkweb.bcgsc.ca/brewer/)
 2. http://colorbrewer2.org/ - Cynthia Brewer and Mark Harrower
