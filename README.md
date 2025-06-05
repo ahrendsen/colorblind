@@ -131,7 +131,7 @@ Inkscape doesn't seem to have a place to copy and paste a list of RGB values. Yo
 Which can be copied and pasted into your inkscape file and then the eyedropper tool can be used to pick out the colors. 
 
 ### Integrated
-Save [this file](inkscape/palettes/colorBlind.gpl) into the directory: 
+Save [this file](inkscape/palettes/colorBlind.gpl) (right click link > "Save link as...") into the directory: 
  - On Windows: "C:\Program Files\Inkscape\share\palettes"
  
 The next time you open Inkscape, you will be able to select the palette by clicking on the arrow in the bottom right hand corner next to the colors.
@@ -140,7 +140,7 @@ The next time you open Inkscape, you will be able to select the palette by click
 Love it or hate it, it's probably the most popular program to create data visualizations. Though I tried, I couldn't seem to find a way to default the colors to a custom option. The best I can do is to configure the program so that it allows you to easily select the palette after the program has started.
 
 ### Copy and Paste
-Save [this theme file](https://github.com/ahrendsen/colorblind/blob/master/Theme1.thmx) where you can find it, then in the Office Ribbon go to "Design > Themes > Browse for Themes" and select the file you just downloaded. 
+Save [this theme file](https://github.com/ahrendsen/colorblind/blob/master/Theme1.thmx) (right click link > "Save link as...") where you can find it, then in the Office Ribbon go to "Design > Themes > Browse for Themes" and select the file you just downloaded. 
 ### Integrated
-Save [the same file as above](https://github.com/ahrendsen/colorblind/blob/master/Theme1.thmx) into the Templates directory. It can be found at (make sure "hidden items" are shown) "<User Folder>\AppData\Roaming\Microsoft\Templates\Document Themes". Now whenever you open a Microsoft product, you should be able to go to "Design > Themes > Theme1" and have access to the colors.
+Save [the same file as above](https://github.com/ahrendsen/colorblind/blob/master/Theme1.thmx) (right click link > "Save link as...") into the Templates directory. It can be found at (make sure "hidden items" are shown) "<User Folder>\AppData\Roaming\Microsoft\Templates\Document Themes". Now whenever you open a Microsoft product, you should be able to go to "Design > Themes > Theme1" and have access to the colors.
 
