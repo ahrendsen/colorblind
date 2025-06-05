@@ -22,7 +22,7 @@ I became aware of them.
 
 1. http://mkweb.bcgsc.ca/colorblind/ - Martin Krzywinski (also http://mkweb.bcgsc.ca/brewer/)
 2. http://colorbrewer2.org/ - Cynthia Brewer and Mark Harrower
-3. https://personal.sron.nl/~pault/ - Paul Tol
+3. [https://personal.sron.nl/~pault/](https://sronpersonalpages.nl/~pault/) - Paul Tol
 
 # Raw RGB Values
 1. Okabe and Ito (https://jfly.uni-koeln.de/color/)
