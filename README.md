@@ -20,7 +20,7 @@ merely trying to organize them into a format that is easily accessible for all c
 following is a list of sources where I got these palettes. They are organized roughly by when 
 I became aware of them.
 
-1. http://mkweb.bcgsc.ca/colorblind/ - Martin Krzywinski (also http://mkweb.bcgsc.ca/brewer/)
+1. [http://mkweb.bcgsc.ca/colorblind/#10home](https://mk.bcgsc.ca/colorblind/#l0home) - Martin Krzywinski (also http://mkweb.bcgsc.ca/brewer/)
 2. http://colorbrewer2.org/ - Cynthia Brewer and Mark Harrower
 3. [https://sronpersonalpages.nl/~pault](https://sronpersonalpages.nl/~pault/) - Paul Tol
 
