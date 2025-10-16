@@ -21,8 +21,9 @@ following is a list of sources where I got these palettes. They are organized ro
 I became aware of them.
 
 1. [http://mk.bcgsc.ca/colorblind/#10home](https://mk.bcgsc.ca/colorblind/#l0home) - Martin Krzywinski (also [http://mk.bcgsc.ca/brewer/](https://mk.bcgsc.ca/brewer/))
-2. http://colorbrewer2.org/ - Cynthia Brewer and Mark Harrower
+2. [http://colorbrewer2.org/](http://colorbrewer2.org/) - Cynthia Brewer and Mark Harrower
 3. [https://sronpersonalpages.nl/~pault](https://sronpersonalpages.nl/~pault/) - Paul Tol
+4. [https://github.com/mpetroff/accessible-color-cycles?tab=readme-ov-file](https://github.com/mpetroff/accessible-color-cycles?tab=readme-ov-file) - Matthew Pettroff
 
 # Raw RGB Values
 1. Okabe and Ito (https://jfly.uni-koeln.de/color/)
@@ -32,8 +33,8 @@ I became aware of them.
 | Color name | R (dec) | G (dec) | B (dec) | R (hex) | G (hex) | B (hex) | RGB (hex) | RGBA (hex) | 
 |   ---      |  ---    |   ---   |   ---   | --- |      --- |    ---      | --- | --- |
 | Black      | 0       |  0      |   0     | 00  | 00 | 00 | 000000 | 000000ff | 
-| Orange | 230 | 159 | 0 |                    e6 | 9f | 00 | e69f00 | e69f00ff | 
-| Sky blue | 86 | 180 | 233 |                 56 | b4 | e9 | 56b4e9 | 56b4e9ff | 
+| Orange     | 230     | 159     | 0       |  e6 | 9f | 00 | e69f00 | e69f00ff | 
+| Sky blue   | 86      | 180     | 233     |56   | b4 | e9 | 56b4e9 | 56b4e9ff | 
 | Bluish green | 0 | 158 | 115 |              00 | 9e | 73 | 009e73 | 009e73ff |
 | Yellow | 240 | 228 | 66 |                   f0 | e4 | 42 | f0e442 | f0e442ff |
 | Blue | 0 | 114 | 178 |                      00 | 72 | b2 | 0072b2 | 0072b2ff | 
@@ -45,6 +46,21 @@ For all of these implementations, I will provide the text input for the Wong 201
 this page.
 In the future, I hope to have a python script that will allow for generation of any of 
 the palettes in any of the languages.
+## matplotlib
+There are so many ways to define colors in matplotlib, this will likely always be a work in progress. Pull requests with your favorite way to define colors are welcome.
+### Copy and Paste (PyPlot)
+Execute the following two commands before your plot statements, and the default color sequence will be set to Okabe and Ito.
+```
+ax = plt.axes()
+ax.set_prop_cycle(color=['000000','e69f00','56b4e9','009e73','f0e442','0072b2','d55e00','cc79a7'])
+```
+### Integrated
+We need to put a few lines of code into the [matplotlibrc file](https://matplotlib.org/stable/users/explain/customizing.html#the-matplotlibrc-file). This probably doesn't exist, so you'll need to make it in the proper directory. Consult the link above to be sure, but in your home directory, there should be a folder called ".matplotlib". It might be hidden so make sure to unhide files and folder in your folder view settings. Inside that folder, make a new file called "matplotlib.txt". Open that file and paste in the following text.
+```
+axes.prop_cycle: cycler('color', ['000000','e69f00','56b4e9','009e73','f0e442','0072b2','d55e00','cc79a7'])
+```
+Save the file, then change the name of the file, removing the ".txt" extension at the end. You'll get a warning message, say "Yes" you're sure you want to change it. If you need to edit the file later, you can just add the ".txt" extension back to the file to be able to open it in a text editor.
+
 ## Mathematica
 Mathematica is where I do the majority of my work, so it will be the first program to be filled out.
 ### Copy and Paste
