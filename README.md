@@ -21,8 +21,9 @@ following is a list of sources where I got these palettes. They are organized ro
 I became aware of them.
 
 1. [http://mk.bcgsc.ca/colorblind/#10home](https://mk.bcgsc.ca/colorblind/#l0home) - Martin Krzywinski (also [http://mk.bcgsc.ca/brewer/](https://mk.bcgsc.ca/brewer/))
-2. http://colorbrewer2.org/ - Cynthia Brewer and Mark Harrower
+2. [http://colorbrewer2.org/](http://colorbrewer2.org/) - Cynthia Brewer and Mark Harrower
 3. [https://sronpersonalpages.nl/~pault](https://sronpersonalpages.nl/~pault/) - Paul Tol
+4. [https://github.com/mpetroff/accessible-color-cycles?tab=readme-ov-file](https://github.com/mpetroff/accessible-color-cycles?tab=readme-ov-file) - Matthew Pettroff
 
 # Raw RGB Values
 1. Okabe and Ito (https://jfly.uni-koeln.de/color/)
