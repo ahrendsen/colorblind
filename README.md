@@ -1,4 +1,4 @@
-# colors intro
+  # colors intro
 A repository to store color palettes for plots in all programming languages and programs. 
 The focus is on schemes that are perceptually uniform and were designed with 
 colorblindness in mind. This
@@ -40,6 +40,25 @@ I became aware of them.
 | Blue | 0 | 114 | 178 |                      00 | 72 | b2 | 0072b2 | 0072b2ff | 
 | Vermillion | 213 | 94 | 0 |                 d5 | 5e | 00 | d55e00 | d55e00ff |
 | Reddish purple | 204 | 121 | 167 |          cc | 79 | a7 | cc79a7 | cc79a7ff |
+
+2. Martin K. 12 Alt
+
+<img width="1367" height="170" alt="image" src="https://github.com/user-attachments/assets/aa6f2198-de32-43d3-bd54-8c2d9c51ae68" />
+
+|Name|R (dec)|G (dec)|B (dec)|R (hex)|G (hex)|B (hex)|RGB (hex)|RGBA (hex)|
+|---|---|---|---|---|---|---|---|---|
+|genoa|0.0|106.0|94.0|0|6A|5E|006A5E|006A5EFF|
+|deeppink|237.0|13.0|136.0|ED|0D|88|ED0D88|ED0D88FF|
+|tealish|0.0|189.0|169.0|0|BD|A9|00BDA9|00BDA9FF|
+|palecrimson|255.0|196.0|212.0|FF|C4|D4|FFC4D4|FFC4D4FF|
+|ceruleanblue|0.0|88.0|204.0|0|58|CC|0058CC|0058CCFF|
+|hotpurple|210.0|8.0|251.0|D2|8|FB|D208FB|D208FBFF|
+|pinkflamingo|255.0|102.0|253.0|FF|66|FD|FF66FD|FF66FDFF|
+|turquoise|0.0|239.0|249.0|0|EF|F9|00EFF9|00EFF9FF|
+|japaneselaurel|21.0|109.0|3.0|15|6D|3|156D03|156D03FF|
+|islamicgreen|0.0|151.0|25.0|0|97|19|009719|009719FF|
+|permanentgreen|0.0|198.0|27.0|0|C6|1B|00C61B|00C61BFF|
+|luminous|0.0|251.0|29.0|0|FB|1D|00FB1D|00FB1DFF|
 
 # Program Implementations
 For all of these implementations, I will provide the text input for the Wong 2011 palette on
