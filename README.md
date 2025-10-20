@@ -28,37 +28,53 @@ I became aware of them.
 # Raw RGB Values
 1. Okabe and Ito (https://jfly.uni-koeln.de/color/)
 
-<img alt="ColorPalette" src="https://raw.githubusercontent.com/ahrendsen/colorblind/master/wong2011.png">
+    <img width="921" height="170" alt="image" src="https://github.com/user-attachments/assets/997c5156-c19b-4c80-9d2d-74984128b96a" />
 
-| Color name | R (dec) | G (dec) | B (dec) | R (hex) | G (hex) | B (hex) | RGB (hex) | RGBA (hex) | 
-|   ---      |  ---    |   ---   |   ---   | --- |      --- |    ---      | --- | --- |
-| Black      | 0       |  0      |   0     | 00  | 00 | 00 | 000000 | 000000ff | 
-| Orange     | 230     | 159     | 0       |  e6 | 9f | 00 | e69f00 | e69f00ff | 
-| Sky blue   | 86      | 180     | 233     |56   | b4 | e9 | 56b4e9 | 56b4e9ff | 
-| Bluish green | 0 | 158 | 115 |              00 | 9e | 73 | 009e73 | 009e73ff |
-| Yellow | 240 | 228 | 66 |                   f0 | e4 | 42 | f0e442 | f0e442ff |
-| Blue | 0 | 114 | 178 |                      00 | 72 | b2 | 0072b2 | 0072b2ff | 
-| Vermillion | 213 | 94 | 0 |                 d5 | 5e | 00 | d55e00 | d55e00ff |
-| Reddish purple | 204 | 121 | 167 |          cc | 79 | a7 | cc79a7 | cc79a7ff |
+    
+    | Color name | R (dec) | G (dec) | B (dec) | R (hex) | G (hex) | B (hex) | RGB (hex) | RGBA (hex) | 
+    |   ---      |  ---    |   ---   |   ---   | --- |      --- |    ---      | --- | --- |
+    | Black      | 0       |  0      |   0     | 00  | 00 | 00 | 000000 | 000000ff | 
+    | Orange     | 230     | 159     | 0       |  e6 | 9f | 00 | e69f00 | e69f00ff | 
+    | Sky blue   | 86      | 180     | 233     |56   | b4 | e9 | 56b4e9 | 56b4e9ff | 
+    | Bluish green | 0 | 158 | 115 |              00 | 9e | 73 | 009e73 | 009e73ff |
+    | Yellow | 240 | 228 | 66 |                   f0 | e4 | 42 | f0e442 | f0e442ff |
+    | Blue | 0 | 114 | 178 |                      00 | 72 | b2 | 0072b2 | 0072b2ff | 
+    | Vermillion | 213 | 94 | 0 |                 d5 | 5e | 00 | d55e00 | d55e00ff |
+    | Reddish purple | 204 | 121 | 167 |          cc | 79 | a7 | cc79a7 | cc79a7ff |
 
 2. Martin K. 12 Alt
 
-<img width="1367" height="170" alt="image" src="https://github.com/user-attachments/assets/aa6f2198-de32-43d3-bd54-8c2d9c51ae68" />
+    <img width="1367" height="170" alt="image" src="https://github.com/user-attachments/assets/aa6f2198-de32-43d3-bd54-8c2d9c51ae68" />
+    
+    |Name|R (dec)|G (dec)|B (dec)|R (hex)|G (hex)|B (hex)|RGB (hex)|RGBA (hex)|
+    |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |
+    |genoa   |00      |106     |94      |00      |6A      |5E      |006A5E  |006A5EFF|
+    |deeppink|237     |13      |136     |ED      |0D      |88      |ED0D88  |ED0D88FF|
+    |tealish |00      |189     |169     |00      |BD      |A9      |00BDA9  |00BDA9FF|
+    |palecrimson|255     |196     |212     |FF      |C4      |D4      |FFC4D4  |FFC4D4FF|
+    |ceruleanblue|00      |88      |204     |00      |58      |CC      |0058CC  |0058CCFF|
+    |hotpurple|210     |80      |251     |D2      |80      |FB      |D208FB  |D208FBFF|
+    |pinkflamingo|255     |102     |253     |FF      |66      |FD      |FF66FD  |FF66FDFF|
+    |turquoise|00      |239     |249     |00      |EF      |F9      |00EFF9  |00EFF9FF|
+    |japaneselaurel|21      |109     |30      |15      |6D      |30      |156D03  |156D03FF|
+    |islamicgreen|00      |151     |25      |00      |97      |19      |009719  |009719FF|
+    |permanentgreen|00      |198     |27      |00      |C6      |1B      |00C61B  |00C61BFF|
+    |luminous|00      |251     |29      |00      |FB      |1D      |00FB1D  |00FB1DFF|
 
-|Name|R (dec)|G (dec)|B (dec)|R (hex)|G (hex)|B (hex)|RGB (hex)|RGBA (hex)|
-|  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |
-|genoa   |00      |106     |94      |00      |6A      |5E      |006A5E  |006A5EFF|
-|deeppink|237     |13      |136     |ED      |0D      |88      |ED0D88  |ED0D88FF|
-|tealish |00      |189     |169     |00      |BD      |A9      |00BDA9  |00BDA9FF|
-|palecrimson|255     |196     |212     |FF      |C4      |D4      |FFC4D4  |FFC4D4FF|
-|ceruleanblue|00      |88      |204     |00      |58      |CC      |0058CC  |0058CCFF|
-|hotpurple|210     |80      |251     |D2      |80      |FB      |D208FB  |D208FBFF|
-|pinkflamingo|255     |102     |253     |FF      |66      |FD      |FF66FD  |FF66FDFF|
-|turquoise|00      |239     |249     |00      |EF      |F9      |00EFF9  |00EFF9FF|
-|japaneselaurel|21      |109     |30      |15      |6D      |30      |156D03  |156D03FF|
-|islamicgreen|00      |151     |25      |00      |97      |19      |009719  |009719FF|
-|permanentgreen|00      |198     |27      |00      |C6      |1B      |00C61B  |00C61BFF|
-|luminous|00      |251     |29      |00      |FB      |1D      |00FB1D  |00FB1DFF|
+3. Petroff 6
+   
+    I took the liberty of renaming the colors so they have unique names.
+  
+    <img width="698" height="170" alt="image" src="https://github.com/user-attachments/assets/07a840d2-b974-4b90-8dbe-0f0f3ae228f6" />
+  
+    |Name|R (dec)|G (dec)|B (dec)|R (hex)|G (hex)|B (hex)|RGB (hex)|RGBA (hex)|
+    |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |
+    |blue    |87      |144     |252     |57      |90      |FC      |5790FC  |5790FCFF|
+    |orange  |248     |156     |32      |F8      |9C      |20      |F89C20  |F89C20FF|
+    |red     |228     |37      |54      |E4      |25      |36      |E42536  |E42536FF|
+    |plum    |150     |74      |139     |96      |4A      |8B      |964A8B  |964A8BFF|
+    |gray    |156     |156     |161     |9C      |9C      |A1      |9C9CA1  |9C9CA1FF|
+    |purple  |122     |33      |221     |7A      |21      |DD      |7A21DD  |7A21DDFF|
 
 # Program Implementations
 For all of these implementations, I will provide the text input for the Wong 2011 palette on
