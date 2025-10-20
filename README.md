@@ -120,7 +120,7 @@ Gnuplot version 5 introduced the `podo` color sequence, which is the Okabe and I
 set colorsequence podo
 ```
 
-On older versions of Gnuplot specify the colors manually:
+On older versions of Gnuplot, specify the colors manually:
 
 ```gnuplot
 set linetype 1 lc rgb 0x000000 lw 2
@@ -136,13 +136,13 @@ set linetype cycle 8
 
 ### Integrated
 
-Copy and paste the following lines into the gnuplot configuration file, default location: "~/.gnuplot". This configuration file might also need to be copied to the root user's home directory "/root/.gnuplot", if you run scripts with root when you collect data. If you are on Gnuplot 5 use the `podo` color sequence:
+Copy and paste the following lines into the gnuplot configuration file, default location: "~/.gnuplot". This configuration file might also need to be copied to the root user's home directory "/root/.gnuplot", if you run scripts with root when you collect data. If you are on Gnuplot 5, use the `podo` color sequence:
 
 ```gnuplot
 set colorsequence podo
 ```
 
-Otherwise specify the colors manually:
+Otherwise, specify the colors manually:
 
 ```gnuplot
 set linetype 1 lc rgb 0x000000 lw 2
