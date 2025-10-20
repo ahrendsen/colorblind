@@ -46,19 +46,19 @@ I became aware of them.
 <img width="1367" height="170" alt="image" src="https://github.com/user-attachments/assets/aa6f2198-de32-43d3-bd54-8c2d9c51ae68" />
 
 |Name|R (dec)|G (dec)|B (dec)|R (hex)|G (hex)|B (hex)|RGB (hex)|RGBA (hex)|
-|---|---|---|---|---|---|---|---|---|
-|genoa|0|106|94|0|6A|5E|006A5E|006A5EFF|
-|deeppink|237|13|136|ED|0D|88|ED0D88|ED0D88FF|
-|tealish|0|189|169|0|BD|A9|00BDA9|00BDA9FF|
-|palecrimson|255|196|212|FF|C4|D4|FFC4D4|FFC4D4FF|
-|ceruleanblue|0|88|204|0|58|CC|0058CC|0058CCFF|
-|hotpurple|210|8|251|D2|8|FB|D208FB|D208FBFF|
-|pinkflamingo|255|102|253|FF|66|FD|FF66FD|FF66FDFF|
-|turquoise|0|239|249|0|EF|F9|00EFF9|00EFF9FF|
-|japaneselaurel|21|109|3|15|6D|3|156D03|156D03FF|
-|islamicgreen|0|151|25|0|97|19|009719|009719FF|
-|permanentgreen|0|198|27|0|C6|1B|00C61B|00C61BFF|
-|luminous|0|251|29|0|FB|1D|00FB1D|00FB1DFF|
+|  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |  ---   |
+|genoa   |00      |106     |94      |00      |6A      |5E      |006A5E  |006A5EFF|
+|deeppink|237     |13      |136     |ED      |0D      |88      |ED0D88  |ED0D88FF|
+|tealish |00      |189     |169     |00      |BD      |A9      |00BDA9  |00BDA9FF|
+|palecrimson|255     |196     |212     |FF      |C4      |D4      |FFC4D4  |FFC4D4FF|
+|ceruleanblue|00      |88      |204     |00      |58      |CC      |0058CC  |0058CCFF|
+|hotpurple|210     |80      |251     |D2      |80      |FB      |D208FB  |D208FBFF|
+|pinkflamingo|255     |102     |253     |FF      |66      |FD      |FF66FD  |FF66FDFF|
+|turquoise|00      |239     |249     |00      |EF      |F9      |00EFF9  |00EFF9FF|
+|japaneselaurel|21      |109     |30      |15      |6D      |30      |156D03  |156D03FF|
+|islamicgreen|00      |151     |25      |00      |97      |19      |009719  |009719FF|
+|permanentgreen|00      |198     |27      |00      |C6      |1B      |00C61B  |00C61BFF|
+|luminous|00      |251     |29      |00      |FB      |1D      |00FB1D  |00FB1DFF|
 
 # Program Implementations
 For all of these implementations, I will provide the text input for the Wong 2011 palette on
